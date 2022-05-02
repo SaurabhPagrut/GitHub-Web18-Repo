@@ -39,11 +39,12 @@ box-sizing: border-box;
    
 }
 
-.content > a{
+h3{
+    padding: 15px;
+}
+a{
     text-decoration: none;
     color: white;
-    display: block;
-    margin:  0.25rem 1rem;
 }
 
 
