@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    /* box-sizing: border-box;
+     */
+}
+
+.nav{
+
+    display: flex;
+
+    width: 100vw;
+    background-color: rgb(11, 11, 63);
+    color: white;
+border-radius: 0.5rem;
+justify-content: space-around;
+align-items: center;
+padding: 0.5rem 1rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+flex: 1;
+box-sizing: border-box;
+
+}
+
+.logo{
+    
+    font-size: large;
+
+   
+  
+}
+
+.content{
+
+   
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.content > a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin:  0.25rem 1rem;
+}
+
+
